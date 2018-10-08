@@ -1,0 +1,44 @@
+.main-body{
+	margin: 0 auto;
+	width: 700px;
+	position: relative;
+}
+h1{
+	border-bottom: 2px solid black;
+	width: 680px;
+        text-align: center;
+}
+table{
+	width: 500px;
+	word-spacing: 5px;
+}
+th{
+	text-align: left;
+}
+h2{
+	border-top: 2px solid black;
+	width: 680px;
+	text-align: center;
+}
+tr,td{
+	padding: 5px;
+}
+#btn-print{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	background-color: red;
+	color: white;
+}
+#btn-print:hover{
+	color: yellow;
+	cursor: pointer;
+}
+#back-home{
+    border: 2px solid black;
+    list-style: none;
+    height: 35px;
+    width: 65px;
+    font-size: 18px;
+    cursor: pointer;
+}

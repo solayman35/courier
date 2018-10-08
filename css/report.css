@@ -1,0 +1,125 @@
+body{
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.user-option{
+	height: 84vh;
+	width: 150px;
+	background-color: rgb(229,232,241);
+	float: left;
+}
+.user-button{
+    height: 58px;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 21px;
+    padding: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 2px solid red;
+
+}
+.user-button:hover{
+	color: rgb(204,0,1);
+}
+.user-report{
+	float: right;
+	width: 830px;
+	height: 84vh;
+	border: 1px solid black;
+}
+#report-find{
+	margin: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+}
+input{
+	font-size: 20px !important;
+	height: 20px;
+	border: 2px solid grey;
+}
+.search-cosignment{
+        font-size: 18px !important;
+	height: 30px;
+	border: 2px solid grey;
+    
+}
+#btn-find{
+	height: 31px;
+	font-weight: bolder;
+	font-size: 15px;
+	background-color: red;
+	cursor: pointer;
+	color: white;
+	border: 4px solid black;
+}
+#btn-find:hover{
+	color: rgb(255,204,0);
+}
+#report-select1,#report-select2{
+	height: 30px;
+    width: 135px;
+    font-size: 17px;
+    margin-right: 15px;
+    margin-top: 25px;
+    border: 4px solid black;
+    box-sizing: content-box;
+}
+#report-date{
+    height: 42px ;
+    width: 175px;
+    font-weight: bolder;
+    font-size: 20px!important;
+    border: 4px solid black;
+}
+.Search{
+	height: 40px;
+	font-weight: bolder;
+	font-size: 15px;
+	background-color: green;
+	cursor: pointer;
+	width: 80px;
+	color: white;
+	border: 4px solid black;
+}
+.Search:hover{
+	color: rgb(255,204,0);
+}
+table{
+	width: 500px;
+	word-spacing: 5px;
+	border: 2px solid red;
+	width: 800px;
+	border-collapse: collapse;
+}
+th{
+	text-align: center;
+	font-weight: bolder;
+}
+tr,th,td{
+	padding: 5px;
+	border: 2px solid black;
+}
+.btn-green{
+	background-color:  green;
+	box-sizing: border-box;
+	color: white;
+	cursor: pointer;
+}
+.btn-edit{
+	background: rgb(247,199,65);
+	cursor: pointer;
+	color: green;
+	box-sizing: border-box;
+
+}
+.btn-details{
+    background: rgb(92,117,191);
+    cursor: pointer;
+    box-sizing: content-box;
+    color: white;
+}
+

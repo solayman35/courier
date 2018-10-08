@@ -1,0 +1,39 @@
+.header{
+	position: relative;
+}
+.header1{
+	height: 50px;
+	width: 1000px;
+	border: 2px solid rgb(255,204,0);
+	background-color: rgb(255,204,0);
+}
+.header2{
+	height: 30px;
+	width: 1000px;
+	border: 2px solid rgb(255,204,0);
+	background-color: rgb(204,0,1);
+	
+}
+#web{
+    position: absolute;
+    left: 19px;
+    top: 50px;
+    font-size: 20px;
+    color: white
+}
+#welcome{
+    position: absolute;
+    right: 200px;
+    top: 51px;
+    color: white;
+}
+#logout a{
+    position: absolute;
+    right: 93px;
+    top: 52px;
+    color: white;
+    list-style: none;
+}
+#logout a:hover{
+	color: rgb(255,204,0);
+}

@@ -1,0 +1,21 @@
+body{
+    margin: 0 auto;
+}
+.user-option{
+	height: 84vh;
+	width: 220px;
+	background-color: rgb(229,232,241);
+}
+button{
+    height: 66px;
+    width: 188px;
+    margin-left: 10px!important;
+    margin-top: 20px !important;
+    font-weight: bold;
+    font-size: 21px !important;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover{
+	color: rgb(204,0,1);
+}

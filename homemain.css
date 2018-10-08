@@ -1,0 +1,131 @@
+.navbar-color{
+	background: rgb(53,28,21);
+}
+.navbar-brand{
+	color: white !important;
+}
+.navbar-brand:hover{
+	color: rgb(196,136,6) !important;
+}
+.navbar-nav li a{
+	color: white !important;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.navbar-nav li a:hover{
+	color: rgb(196,136,6) !important;
+	}
+.col-md-4{
+	border-top: 2px;
+	height: 450px;
+	width: 320px;
+	
+}
+.btn-service{
+	font-size: 12px;
+    line-height: 12px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 22px 40px 23px;
+    border: 2px solid #007ab7;
+    border-radius: 40px;
+    color: #007ab7;
+    text-transform: uppercase;
+    position: absolute;
+    left: 20%;
+    bottom: -10%;
+    cursor: pointer;
+}
+.service-top{
+	margin-top: 20px;
+	height: 600px;
+	position: relative;
+}
+.footter{
+	height: 70px;
+	width: 100%;
+	background: rgb(53,28,21);
+}
+.midtop{
+	margin-top: 40px;
+}
+.midsection h1{
+	font-size: 35px;
+    color: #58595B;
+    font-weight: normal;
+    text-align: center;
+
+}
+.midsection h5{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    margin-top: 5px;
+    margin-bottom: 60px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.footer-menu ul li{
+	list-style: none;
+	display: inline-block;
+	color: white;
+	margin-top: 30px;
+}
+
+.service-p{
+	text-align: center;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    height: 16%;
+    max-height: 9%
+}
+.service-h3{
+	font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.btn-service:hover{
+	background: rgb(77,20,140);
+	color: white;
+
+}
+/*///////////////////////////////////////////////////*/
+/*ei kan takhe tracking html page  er css soro hoica*/
+/*/////////////////////////////////////////////////*/
+
+.track{
+    margin: 2px auto;
+    /*border: 2px solid red;*/
+    height: 320px;
+    width: 600px;
+}
+.input-group{
+    margin-top: 190px;
+}
+.btn-search {
+      background: #424242;
+      border-radius: 0;
+      color: #fff;
+      border-width: 1px;
+      border-style: solid;
+      border-color: #1c1c1c;
+}
+.btn-search:link, .btn-search:visited {
+      color: #fff;
+}
+.btn-search:active, .btn-search:hover {
+      background: #1c1c1c;
+      color: #fff;
+}
+@media(max-width: 575.98px){
+    .track{
+        width: 100%;
+    }
+
+}

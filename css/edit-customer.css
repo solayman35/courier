@@ -1,0 +1,167 @@
+body{
+        margin: 0 auto;
+	width: 1000px;
+	height: 102vh;
+
+}
+h1{
+	text-align: center;
+	text-transform: capitalize;
+        margin: 0 auto;
+	
+}
+fieldset{
+	background-color:burlywood;
+	position: relative;
+	height: 550px;
+        width: 900px;
+        margin-left: 25px !important;
+        border: 2px solid black;
+        
+}
+fieldset legend {
+	text-align:center;
+	font-style: inherit;
+	font-size: 25px;
+	font-weight: bolder;
+}
+label{
+    text-transform: capitalize;
+    position: absolute;
+    left: 40px;
+    margin-top: 2px;
+    font-size: 20px;
+}
+input, select {
+    width: 600px;
+    padding: 5px 5px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 135px;
+}
+#btn_search{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(44,157,234);
+    color: white;
+    padding: 8px;
+    margin: 3px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    right: 35px;
+    bottom: 179px;
+    text-transform: uppercase;
+
+}
+#btn_search2{
+    width: 100px;
+    background-color: rgb(44,157,234);
+    color: white;
+    padding: 8px;
+    margin: 3px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    position: absolute;
+    right: 35px;
+    bottom: 138px;
+    text-transform: uppercase;
+
+}
+
+#btn_save {
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px;
+    margin: 3px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: absolute;
+    right: 152px;
+    bottom: 48px
+}
+#btn_next{
+	width: 80px;
+        background-color: rgb(190,0,0);
+        color: pink;
+        padding: 8px;
+        margin: 3px 0;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 15px;
+        position: absolute;
+        right: 215px;
+}
+#btn_search:hover{
+    background-color: #4CAF50;
+    color: blue;
+    padding: 8px;
+    margin: 3px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+#btn_search2:hover{
+    background-color: #4CAF50;
+    color: blue;
+    padding: 8px;
+    margin: 3px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.update-search-input{
+                width: 600px;
+                padding: 5px 5px;
+                margin: 1px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                box-sizing: border-box;
+                position: absolute;
+                right: 137px;
+                bottom: 104px;
+            }
+#update_search{
+                width: 100px;
+                background-color: rgb(44,157,234);
+                color: white;
+                padding: 8px;
+                margin: 3px 0;
+                border: none;
+                border-radius: 15px;
+                cursor: pointer;
+                position: absolute;
+                right: 35px;
+                bottom: 99px;
+                text-transform: uppercase;
+            }
+#label-phone-search{
+                margin-top: 370px;
+            }
+#btn_save-update{
+                width: 100px;
+                background-color: #4CAF50;
+                color: white;
+                padding: 8px;
+                margin: 3px 0;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                position: absolute;
+                right: 152px;
+                bottom: 20px;
+}
